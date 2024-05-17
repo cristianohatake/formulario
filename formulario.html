@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>>
+    <title>formulario</title>
+</head>
+<body> 
+    <h1>formulario de pesquisa</h1>
+
+
+
+    <form method="post" action="processar-pesquisa.html"></form>
+    <section> <h2>dados de pessoais</h2>
+       
+        <p><label for="nome">nome:</label>
+            <input type="text" id="nome"/></p>
+     <p>
+        <label for="email">e-mail:</label>
+        <input type="e-mail" id="email"/>
+     </p>
+    
+     <p>
+        <label for="telefone">telefone:</label>
+        <input type="tel" id="telefone"/>
+     </p>
+        
+      
+    </section>
+    <section>
+       <h2>dados da pesquisa</h2>
+        <p> de 1 a 5 qual sua nota para one punch man?
+            <input type="radio" id="1" name="nota">
+            <label for="1">1</label>
+            <input type="radio" id="2" name="nota" >
+            <label for="2">2</label>
+            <input type="radio" id="3" name="nota" >
+            <label for="3">3</label>
+            <input type="radio" id="4" name="nota">
+            <label for="4">4</label>
+            <input type="radio" id="5" name="nota">
+            <label for="5">5</label></p>
+       <p> de 1 a 5 qual sua nota para one piece?
+        <input type="radio" id="1" name="notas">
+        <label for="1">1</label>
+        <input type="radio" id="2" name="notas" >
+        <label for="2">2</label>
+        <input type="radio" id="3" name="notas" >
+        <label for="3">3</label>
+        <input type="radio" id="4" name="notas">
+        <label for="4">4</label>
+        <input type="radio" id="5" name="notas">
+        <label for="5">5</label></p>
+       <p>
+        <label for="departamento">qual genero de anime você mais consome? </label>
+        <select >
+            <option>ação</option>
+            <option>aventura</option>
+            <option>romance</option>
+            <option>comedia</option>
+            <option>suspence</option>
+        </select>
+       </p>
+       <p>
+        <input type="checkbox" id="compartilhar-dados">
+
+        <label for="compartilhar-dados">autorizo compartilhamento de dados com terceiros </label>
+       </p>
+    </section>
+    <input type="submit" value="enviar">
+   
+</body>
+</html>
